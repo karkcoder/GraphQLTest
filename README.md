@@ -1,9 +1,16 @@
-#Create database
-1. Install EntityFramework tool  (Install-Package Microsoft.EntityFrameworkCore.Tools)
-2. Add-Migration Initial
-3. Update-Database
+# Required Nuget Packages
+- HotChocolate.AspNetCore
+- HotChocolate.Data.EntityFramework
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Tools
 
-#Example of GraphQL
+# Create database
+- Install EntityFramework tool  (Install-Package Microsoft.EntityFrameworkCore.Tools)
+- Add-Migration Initial
+- Update-Database
+
+# Example of GraphQL Query
 ```
 query{
   superheroes{
