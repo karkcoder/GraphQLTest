@@ -2,7 +2,6 @@
 
 namespace Library.Data
 {
-
     public class Query
     {
         [UseProjection]
